@@ -26,39 +26,47 @@ Dabei werden diese zunächst als Rohdaten in `/data/raw` gespeichert und anschli
 | Population with basic handwashing facilities at home (%) | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-with-basic-handwashing-facilities-at-home-(-)) |
 | Government expenditure on education, total (% of GDP)    | [World Bank](https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS)                                                               |
 | Current health expenditure (% of GDP)                    | [World Bank](https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS)                                                               |
+| Human Development Index                                  | [United Nations Development Programme](hdr.undp.org/en/indicators/137506)                                                          |
+| BIP pro Kopf // allgemeine ökonomische Faktoren          | @Rene [World Development Indicators](http://wdi.worldbank.org/table/WV.1)                                                          |
+| Democracy Index                                          | @Niko [Democracy Index](https://en.wikipedia.org/wiki/Democracy_Index)                                                             |
+| Haushaltsgröße                                           | [UN](https://population.un.org/Household/index.html)                                                                         |
+| Lockdown                                                 | @Milena                                                                                                                            |
+| Ernährungsdaten                                          | @Milena                                                                                                                            |
+| Reiseverhalten                                           | @Yvonne                                                                                                                            |
+| Sterberate (allgemein)                                   | @Yvonne                                                                                                                            |
 
 Um die als _Submodule_ eingebundenen Daten zu laden/aktualisieren, muss der Befehl `git submodule update` ausgeführt werden.
 Beim erstmaligen clonen des Repositories ist zuvor noch `git submodule init` auszuführen.
 
 ## Ideen für Features
 
-| Allgemeine Kennzahlen                           | Quelle                                                                                                                                                    |
-| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BIP pro Kopf // allgemeine ökonomische Faktoren | [World Development Indicators](http://wdi.worldbank.org/table/WV.1)                                                                                       |
-| Einwohnerzahl                                   | [Population by Country - 2020](https://www.kaggle.com/tanuprabhu/population-by-country-2020) + [Our World In Data](https://github.com/owid/covid-19-data) |
-| Tests                                           | [WorldOMeters - Coronavirus](https://www.worldometers.info/coronavirus/#ctabs-row) + [Our World In Data](https://github.com/owid/covid-19-data)           |
-| Lockdown                                        | [COVID-19 Lockdown dates by country](https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country)                                                     |
-| Frauen und Entwicklung                          | [World Development Indicators](http://wdi.worldbank.org/table/WV.5)                                                                                       |
-| Democracy Index                                 | [Democracy Index](https://en.wikipedia.org/wiki/Democracy_Index)                                                                                          |
-| Armutszahlen                                    | [World Development Indicators](http://wdi.worldbank.org/table/1.1) + [World Development Indicators](http://wdi.worldbank.org/table/1.2)                   |
+| Allgemeine Kennzahlen                                  | Quelle                                                                                                                                                    |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :soon: BIP pro Kopf // allgemeine ökonomische Faktoren | [World Development Indicators](http://wdi.worldbank.org/table/WV.1)                                                                                       |
+| :soon: Einwohnerzahl                                   | [Population by Country - 2020](https://www.kaggle.com/tanuprabhu/population-by-country-2020) + [Our World In Data](https://github.com/owid/covid-19-data) |
+| :ok: Tests                                             | [WorldOMeters - Coronavirus](https://www.worldometers.info/coronavirus/#ctabs-row) + [Our World In Data](https://github.com/owid/covid-19-data)           |
+| :question: Lockdown                                    | [COVID-19 Lockdown dates by country](https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country)                                                     |
+| Frauen und Entwicklung                                 | [World Development Indicators](http://wdi.worldbank.org/table/WV.5)                                                                                       |
+| :soon: Democracy Index                                 | [Democracy Index](https://en.wikipedia.org/wiki/Democracy_Index)                                                                                          |
+| Armutszahlen                                           | [World Development Indicators](http://wdi.worldbank.org/table/1.1) + [World Development Indicators](http://wdi.worldbank.org/table/1.2)                   |
 
 
-| Features, die mit Fallzahlen korrelieren könnten                      | Quelle                                                                                                                                                                                                                                        |
-| --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reiseverhalten                                                        | [World Development Indicators](http://wdi.worldbank.org/table/6.14)                                                                                                                                                                           |
-| Hygiene (-> Population with basic handwashing facilities at home (%)) | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-with-basic-handwashing-facilities-at-home-(-)) + [Our World In Data](https://github.com/owid/covid-19-data)                                               |
-| Durchschnittl. Haushaltsgröße                                         | [Diercke Weltaltlas](https://diercke.westermann.de/content/haushaltsgr%C3%B6%C3%9Fen-und-kulturerdteile-nach-kolb-und-j-newig-978-3-14-100700-8-254-1-0) [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households) |
-| Klima                                                                 | [Countries Statistical Dataset](https://www.kaggle.com/aestheteaman01/covcsd-covid19-countries-statistical-dataset)                                                                                                                           |
+| Features, die mit Fallzahlen korrelieren könnten                           | Quelle                                                                                                                                                                                                                                          |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :soon: Reiseverhalten                                                      | [World Development Indicators](http://wdi.worldbank.org/table/6.14)                                                                                                                                                                             |
+| :ok: Hygiene (-> Population with basic handwashing facilities at home (%)) | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-with-basic-handwashing-facilities-at-home-(-)) + [Our World In Data](https://github.com/owid/covid-19-data)                                                 |
+| :soon: Durchschnittl. Haushaltsgröße                                       | [Diercke Weltaltlas](https://diercke.westermann.de/content/haushaltsgr%C3%B6%C3%9Fen-und-kulturerdteile-nach-kolb-und-j-newig-978-3-14-100700-8-254-1-0) + [Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_households) |
+| :question: Klima                                                           | [Countries Statistical Dataset](https://www.kaggle.com/aestheteaman01/covcsd-covid19-countries-statistical-dataset)                                                                                                                             |
 
 
 | Features, die mit Todeszahlen korrelieren könnten | Quelle                                                                                                                                                                             |
 | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| div. Faktoren Gesundheitssystem                   | [World Development Indicators by Countries](https://www.kaggle.com/hn4ever/world-development-indicators-by-countries) + [Our World In Data](https://github.com/owid/covid-19-data) |
-| Human Development Index                           | [United Nations Development Programme](hdr.undp.org/en/indicators/137506)                                                                                                          |
+| :ok: div. Faktoren Gesundheitssystem              | [World Development Indicators by Countries](https://www.kaggle.com/hn4ever/world-development-indicators-by-countries) + [Our World In Data](https://github.com/owid/covid-19-data) |
+| :ok: Human Development Index                    | [United Nations Development Programme](hdr.undp.org/en/indicators/137506)                                                                                                          |
 | Altersstruktur                                    | [Our World In Data](https://github.com/owid/covid-19-data)                                                                                                                         |
-| Anzahl Ärzte                                      | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(per-10-000-population))                                                                  |
-| Ernährungsdaten (Über-/Untergewicht)              | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
-| Allgemeine Sterblichkeitsrate                     | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                                                    |
+| :ok: Anzahl Ärzte                                 | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(per-10-000-population))                                                                  |
+| :soon: Ernährungsdaten (Über-/Untergewicht)       | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
+| :soon: Allgemeine Sterblichkeitsrate              | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                                                    |
 
 ## Weitere potenzielle Datenquellen
 
