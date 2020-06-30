@@ -30,8 +30,8 @@ Dabei werden diese zunächst als Rohdaten in `/data/raw` gespeichert und anschli
 | BIP pro Kopf // allgemeine ökonomische Faktoren          | [World Development Indicators](http://wdi.worldbank.org/table/WV.1)                                                                |
 | Democracy Index                                          | [Democracy Index](https://en.wikipedia.org/wiki/Democracy_Index)                                                                   |
 | Haushaltsgröße                                           | [UN](https://population.un.org/Household/index.html)                                                                               |
+| Ernährungsdaten                                                 | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
 | Lockdown                                                 | @Milena                                                                                                                            |
-| Ernährungsdaten                                          | @Milena                                                                                                                            |
 | Reiseverhalten                                           | @Yvonne                                                                                                                            |
 | Sterberate (allgemein)                                   | @Yvonne                                                                                                                            |
 
@@ -65,7 +65,7 @@ Beim erstmaligen clonen des Repositories ist zuvor noch `git submodule init` aus
 | :ok: Human Development Index                      | [United Nations Development Programme](hdr.undp.org/en/indicators/137506)                                                                                                          |
 | Altersstruktur                                    | [Our World In Data](https://github.com/owid/covid-19-data)                                                                                                                         |
 | :ok: Anzahl Ärzte                                 | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(per-10-000-population))                                                                  |
-| :soon: Ernährungsdaten (Über-/Untergewicht)       | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
+| :ok: Ernährungsdaten (Über-/Untergewicht)       | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
 | :soon: Allgemeine Sterblichkeitsrate              | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                                                    |
 
 ## Weitere potenzielle Datenquellen
