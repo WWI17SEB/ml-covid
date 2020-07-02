@@ -32,8 +32,8 @@ Dabei werden diese zunächst als Rohdaten in `/data/raw` gespeichert und anschli
 | Haushaltsgröße                                           | [UN](https://population.un.org/Household/index.html)                                                                               |
 | Ernährungsdaten                                                 | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
 | Lockdown                                                 | @Milena                                                                                                                            |
-| Reiseverhalten                                           | @Yvonne                                                                                                                            |
-| Sterberate (allgemein)                                   | @Yvonne                                                                                                                            |
+| Reiseverhalten                                           | [World Development Indicators](http://wdi.worldbank.org/table/6.14)                                                                                                                            |
+| Sterberate (allgemein)                                   | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                                                                            |
 
 Um die als _Submodule_ eingebundenen Daten zu laden/aktualisieren, muss der Befehl `git submodule update` ausgeführt werden.
 Beim erstmaligen clonen des Repositories ist zuvor noch `git submodule init` auszuführen.
@@ -53,7 +53,7 @@ Beim erstmaligen clonen des Repositories ist zuvor noch `git submodule init` aus
 
 | Features, die mit Fallzahlen korrelieren könnten                           | Quelle                                                                                                                                                                                                          |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :soon: Reiseverhalten                                                      | [World Development Indicators](http://wdi.worldbank.org/table/6.14)                                                                                                                                             |
+| :ok: Reiseverhalten                                                      | [World Development Indicators](http://wdi.worldbank.org/table/6.14)                                                                                                                                             |
 | :ok: Hygiene (-> Population with basic handwashing facilities at home (%)) | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-with-basic-handwashing-facilities-at-home-(-)) + [Our World In Data](https://github.com/owid/covid-19-data)                 |
 | :ok: Durchschnittl. Haushaltsgröße                                         | [Diercke Weltaltlas](https://diercke.westermann.de/content/haushaltsgr%C3%B6%C3%9Fen-und-kulturerdteile-nach-kolb-und-j-newig-978-3-14-100700-8-254-1-0) + [UN](https://population.un.org/Household/index.html) |
 | :question: Klima                                                           | [Countries Statistical Dataset](https://www.kaggle.com/aestheteaman01/covcsd-covid19-countries-statistical-dataset)                                                                                             |
@@ -66,7 +66,7 @@ Beim erstmaligen clonen des Repositories ist zuvor noch `git submodule init` aus
 | Altersstruktur                                    | [Our World In Data](https://github.com/owid/covid-19-data)                                                                                                                         |
 | :ok: Anzahl Ärzte                                 | [WHO](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(per-10-000-population))                                                                  |
 | :ok: Ernährungsdaten (Über-/Untergewicht)       | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
-| :soon: Allgemeine Sterblichkeitsrate              | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                                                    |
+| :ok: Allgemeine Sterblichkeitsrate              | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                                                    |
 
 ## Weitere potenzielle Datenquellen
 
