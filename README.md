@@ -30,8 +30,8 @@ Dabei werden diese zunächst als Rohdaten in `/data/raw` gespeichert und anschli
 | BIP pro Kopf // allgemeine ökonomische Faktoren          | [World Development Indicators](http://wdi.worldbank.org/table/WV.1)                                                                |
 | Democracy Index                                          | [Democracy Index](https://en.wikipedia.org/wiki/Democracy_Index)                                                                   |
 | Haushaltsgröße                                           | [UN](https://population.un.org/Household/index.html)                                                                               |
-| Ernährungsdaten                                                 | [Malnutrition across the globe](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
-| Lockdown                                                 | @Milena                                                                                                                            |
+| Ernährungsdaten                                          | [Unicef](https://www.kaggle.com/ruchi798/malnutrition-across-the-globe)                                                                                     |
+| Lockdown (Typ und Datum (verallgemeinert))               | [Multiple Sources](https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country)                                                                                     |
 | Reiseverhalten                                           | [World Development Indicators](http://wdi.worldbank.org/table/6.14)                                                                                                                            |
 | Sterberate (allgemein)                                   | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                                                                            |
 
@@ -45,7 +45,7 @@ Beim erstmaligen clonen des Repositories ist zuvor noch `git submodule init` aus
 | :ok: BIP pro Kopf // allgemeine ökonomische Faktoren | [World Development Indicators](http://wdi.worldbank.org/table/WV.1)                                                                                       |
 | :soon: Einwohnerzahl                                 | [Population by Country - 2020](https://www.kaggle.com/tanuprabhu/population-by-country-2020) + [Our World In Data](https://github.com/owid/covid-19-data) |
 | :ok: Tests                                           | [WorldOMeters - Coronavirus](https://www.worldometers.info/coronavirus/#ctabs-row) + [Our World In Data](https://github.com/owid/covid-19-data)           |
-| :question: Lockdown                                  | [COVID-19 Lockdown dates by country](https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country)                                                     |
+| :ok: Lockdown                                  | [COVID-19 Lockdown dates by country](https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country)                                                     |
 | :soon: Frauen und Entwicklung                        | [World Development Indicators](http://wdi.worldbank.org/table/WV.5)                                                                                       |
 | :ok: Democracy Index                                 | [Democracy Index](https://en.wikipedia.org/wiki/Democracy_Index) / [](https://www.eiu.com/public/topical_report.aspx?campaignid=democracyindex2019)       |
 | :soon: Armutszahlen                                  | [World Development Indicators](http://wdi.worldbank.org/table/1.1) + [World Development Indicators](http://wdi.worldbank.org/table/1.2)                   |
