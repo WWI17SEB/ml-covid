@@ -1,1 +1,5 @@
 *.xlsx
+
+# don't track local files to help with iso codes
+wikipedia_iso_codes.py
+wikipedia_iso_codes.txt
