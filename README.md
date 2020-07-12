@@ -12,6 +12,9 @@ Zur Berechnung dieser Zahlen soll das _Supervised Learning_ zum Einsatz kommen, 
 
 Zuvor jedoch soll mit Hilfe des _Unsupervised Learning_ eine Klassifikation der verschiedenen Länder erfolgen, um potentielle Trainings-Länder zu finden.
 
+## Überblick Vorgehen
+![Vorgehen](OverviewProcess.png)
+
 ## Aufbau Repository
 
 Alle verwendeten Daten werden im `/data`-Ordner untergebracht.
