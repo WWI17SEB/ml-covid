@@ -19,7 +19,8 @@
 | Sterberate (allgemein)                                   | [World Development Indicators - Mortality](http://wdi.worldbank.org/table/2.18)                                                                |
 
 Um die als _Submodule_ eingebundenen Daten zu laden/aktualisieren, muss der Befehl `git submodule update` ausgeführt werden.
-Beim erstmaligen clonen des Repositories ist zuvor noch `git submodule init` auszuführen.
+Beim erstmaligen Clonen des Repositories ist zuvor noch `git submodule init` auszuführen.
+Je nachdem, ob man git mit HTTPS oder SSH verwendet, muss gegebenenfalls der Inhalt von `.gitmodules` angepasst werden.
 
 ## Ideen für Features
 
