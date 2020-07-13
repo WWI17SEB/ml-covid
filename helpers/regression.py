@@ -25,9 +25,9 @@ def regression(X, y, regressor, test_size=0.2, random_state=None):
     plotDataSortedByActual(ax1, y_train, y_train_pred, "Train Data")
     plotDataSortedByActual(ax2, y_test, y_pred, "Test Data")
 
-    return regressor
+    return [regressor, y_test, y_pred]
 
-def plotDataSortedByActual(ax, actual, prediction, title):
+def plotDataSortedByActual(ax, actual, prediction, title, ylim_min=None, ylim_max=None):
     compare = []
     for i in range(len(prediction)):
         compare.append({ "actual": actual[actual.index[i]], "predicted": prediction[i]})
@@ -36,4 +36,5 @@ def plotDataSortedByActual(ax, actual, prediction, title):
     compare = sorted(compare, key=get_actual)
     ax.plot([x for x in range(len(compare))], [t["actual"] for t in compare], '-o')
     ax.plot([x for x in range(len(compare))], [t["predicted"] for t in compare], '-x')
+    if (ylim_min != None and ylim_max != None): ax.set_ylim(ylim_min, ylim_max)
     ax.set_title(title)
